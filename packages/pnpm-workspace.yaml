@@ -1,0 +1,7 @@
+packages:
+  - '*'
+
+linkWorkspacePackages: true
+
+overrides:
+  '@cosmo/lib': link:lib

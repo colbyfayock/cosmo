@@ -1,0 +1,19 @@
+{
+  "name": "@cosmo/scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "pulsar": "tsx src/pulsar.ts",
+    "backup": "tsx src/backup.ts",
+    "test": "echo No tests"
+  },
+  "dependencies": {
+    "@cosmo/lib": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
