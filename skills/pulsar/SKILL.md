@@ -6,7 +6,7 @@
 
 Run the script:
 ```bash
-cd ~/.nanobot/workspace/packages/scripts && npx tsx pulsar.ts
+npx tsx ~/.cosmo/packages/scripts/pulsar.ts
 ```
 
 ## What It Does
@@ -28,6 +28,6 @@ When running pulsar via cron with "[silent]" in the message, do NOT send any res
 ## Manual Run
 
 ```bash
-cd ~/.nanobot/workspace/packages/scripts && npx tsx pulsar.ts
+npx tsx ~/.cosmo/packages/scripts/pulsar.ts
 ```
 EOF # Update pulsar skill
